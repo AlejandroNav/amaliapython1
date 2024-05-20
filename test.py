@@ -4,7 +4,7 @@ import pandas as pd
 data = {
     'Nombre': ['Ana', 'Juan', 'María', 'Pedro'],
     'Edad': [23, 34, 29, 40],
-    'Ciudad': ['Madrid', 'Barcelona', 'Valencia', 'Sevilla']
+    'Ciudad': ['', '', '', '']
 }
 
 df = pd.DataFrame(data)
