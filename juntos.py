@@ -5,10 +5,7 @@ import matplotlib.pyplot as plt
 import statistics as st
 import scipy.stats as sp
 import seaborn as sns
-import warnings
 
-# Desactivar advertencias de Seaborn
-warnings.filterwarnings("ignore")
 
 # Adquiere los datos desde archivos csv usando biblioteca PANDAS
 df_cientificos = pd.read_csv('salario-ciencias.csv')  # Reemplaza con la ruta correcta
@@ -18,7 +15,6 @@ df_pedagogos = pd.read_csv('salarios-pedagogo.csv')   # Reemplaza con la ruta co
 x_cientificos = df_cientificos['salario']
 x_pedagogos = df_pedagogos['salario']
 
-# Mostrar resultados en consola para Científicos de Datos
 print("==============================\n")
 print(" \nAnálisis de salarios de científico de Datos Amalia Soto")
 print(" \n<< Datos de entrada >>")
